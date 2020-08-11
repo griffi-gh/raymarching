@@ -28,7 +28,7 @@ function love.update(dt)
   end
   pos={pos[1]+so,math.max(.1,pos[2]+uo),pos[3]+fo}
   shader:send("pos",pos)
-  shader:send("rot",rot)
+  --shader:send("rot",rot)
 end
 
 function love.draw()
